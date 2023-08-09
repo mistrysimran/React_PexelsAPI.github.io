@@ -1,24 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import 'bootswatch/dist/materia/bootstrap.min.css';
+import Search from './components/Search';
+import SearchFnComp from './components/SearchFnComp';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="">
+        <Search />
+        {/* <h1>hello</h1> */}
+        {/* <SearchFnComp /> */}
+      </div>
+    </>
   );
 }
 

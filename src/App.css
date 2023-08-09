@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+
 .App {
   text-align: center;
 }
@@ -36,3 +38,73 @@
     transform: rotate(360deg);
   }
 }
+*
+{
+  box-sizing: border-box;
+}
+body
+{
+  background: rgba(0, 0, 0, 0.85) !important;
+  color: whitesmoke !important;
+}
+.d1 h1
+{
+  font-family: 'Alice', serif;
+  color: white;
+  font-size: 7vmin !important;
+}
+
+.cont h1
+{
+  font-family: 'Alice', serif;
+  font-size: 7vmin !important;
+}
+
+.d1
+{
+  background: rebeccapurple;
+  padding: 70px;
+  height: 40vh;
+  background: url('https://images.unsplash.com/photo-1597307671580-2777c6ca8583?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1176&q=80');
+  background-position: center;
+  background-size: cover;
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inp
+{
+  display: flex !important;
+  justify-content: center;
+}
+
+.inp input
+{
+  /* width: 40rem !important; */
+  width: 60% !important;
+  border-radius: 30px;
+}
+
+.inp input:focus, input:focus
+{
+  outline: none;
+}
+
+.inp button
+{
+  border-top-right-radius: 30px !important;
+  border-bottom-right-radius: 30px !important;
+  border-left: 0 !important;
+  /* border: 1px solid; */
+  /* box-shadow: none !important; */
+  box-shadow: 1.5px 0px 2px gray;
+  background: white !important;
+}
+
+.inp button i
+{
+  color: gray;
+}
+
